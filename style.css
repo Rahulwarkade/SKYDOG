@@ -157,8 +157,20 @@ video {
   .common_btn {
     background: #fff;
     width: 200px;
-    height: 50px;
+    height: 60px;
     flex-shrink: 0;
+    position: relative;
+    transform: translate(0%,-14%);
+    border-color: #fff;
+  }
+  .com {
+    background: black;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    position: relative;
+    transform: translate(3%,100%);
+    border: 1px solid white;
   }
   
   .span-text1 {
@@ -199,6 +211,7 @@ video {
   background:  cover no-repeat;
   left: 0%;
   bottom: 0%;
+  pointer-events: none;
 }
 
 #second_dog img{
@@ -316,6 +329,28 @@ video {
 
   width: 150px;
   height: 60px;
+  flex-shrink: 0;
+  position: relative;
+  border-color: #fff;
+  transform: translate(-104%,-50%);
+}
+.com1 {
+  background: black;
+  width: 150px;
+  height: 60px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0%,0%);
+  border: 1px solid white;
+}
+.com2 {
+  background: black;
+  width: 150px;
+  height: 60px;
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(0%,0%);
+  border: 1px solid white;
 }
 .span-text {
   color: #000;
@@ -519,7 +554,8 @@ video {
   width: 540px;
   height: 60px;
   border-radius: 8px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-top: -2px;
   margin-bottom: 20px;
   border: 1px solid #aaa;
 }

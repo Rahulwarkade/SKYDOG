@@ -12,10 +12,15 @@ body {
 #main{
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #overlay{
     width : 100vw;
+}
+
+*::-webkit-scrollbar{
+  display: none;
 }
 video {
   object-fit: cover;
@@ -24,6 +29,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  filter: blur(0);
 }
 @font-face {
   font-family: "northdenregular";
